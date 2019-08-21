@@ -47,3 +47,17 @@ example :
 for (a = 1, b = 3, c = a * b; a < 10; a++) {
  ...
 } */
+
+/* comparision
+   string comparision
+   strict equality
+*/
+let a = "A";
+let b = "Z";
+alert(b > a); // this will reuturn true and thats how string comparions works
+
+// strict equality : this will check along with the data type
+let a = "1";
+let b = 1;
+alert(a==b);// will return true cause the values are same  
+alert(a===b);//will return false cause the datatypes are different
