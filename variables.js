@@ -4,11 +4,11 @@ let myfirstvariable = 5;
 alert(myfirstvariable);
 
 
- naming convention for variables:
+/* naming convention for variables:
    - apart from $ and _ none of the special characters can be used as variables
    - always use camel case for variable names
    - digits should not comes first in a variable name
-
+*/
 
 //valid
 let userName = 'something';
